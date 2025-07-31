@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Biblioteca do Saber - DEV</title>
 </head>
 <body>
     <h1>Fase 1 - Fundamentos de Programação</h1>
-    <h2>Lógica de Programação</h2>
+    <h2>Lógica e Python básico</h2>
+    <h3>Lógica de Programação</h3>
     <p>Permite estruturar o racicionio em comandos. Materializar o raciocinio em logica.</p>
     <p>Pseudocodigo - proxima a linguagem humana, para facilitar no inicio do aprendizado. Rascunho escrito em linguagem simples. Ex.: 1. verifique se esta chovendo - 2. se estiver chovendo, pegue o guarda chuva. 3. se nao, saia sem o guarda chuva. Ajuda a planejar e estruturar o codigo antes de executar.</p>
     <p>Fluxogramas - forma visual de representar a logica do programa. Ajuda a entender a logica do programa sem entender de linguagem de programacao.</p> 
     <p>Algoritmos - conjunto de passos que nos ajudam a resolver problemas. Exemplo: manual de montaegm de uma cadeira. Instrucoes para a maquina executar as tarefas e funcionalidades.Outro exemplo, fazer o bolo. Existe uma logica e sequencia para a execucao. E uma receita a nivel de maquina. (eu)</p>
-    <p>Metodo dos 5Qs:
+    <h3>Metodo dos 5Qs</h3>
     Ajuda a pensar no algoritmo de forma estruturada e pratica.
     1 - O que? O que queremos resolver. Definir o problema ou tarefa que o algoritmo precisa executar.
     2- Por que? Porque resolver isso? Qual a motivacao por traz do problema. Ajuda a conectar a logica com o proposito real.
     3 - Quando? Quando isso sera utilizado? Organiza o momento que o algoritmo sera ativado.
     4 - Onde? Onde sera executado? Onde executar o algoritmo.
     5 - Quem? Quem ira executar isso? Importante para planejar as entradas e saidas.
-    Exemplo de media das notas do aluno inseridas pelo professor.</p>
-    <h2>Variáveis, tipos de dados e entrada e saída de dados</h2>
+    Exemplo de media das notas do aluno inseridas pelo professor.
+    <h3>Variáveis, tipos de dados e entrada e saída de dados</h3>
     <p>Variável: espaco da memoria que guardo uma informacao que pode mudar ao longo do tempo.
         Em python, não precisamos declarar o tipo da variável, pois o Python é uma linguagem de tipagem dinâmica.
         Exemplo: nome = "Francieli" (aqui, a variável nome é do tipo string, mas não precisamos declarar isso explicitamente).
@@ -45,7 +47,7 @@
     Em Python, usamos a função input() para entrada de dados e print() para saída de dados.
     Exemplo de entrada de dados: nome = input("Digite seu nome: ")
     Exemplo de saída de dados: print("Olá, " + nome + "! Bem-vindo ao programa.")
-    <p>Expressões</p>
+    <h3>Expressões</h3>
     <p>Expressões - combinações de variáveis, constantes, operadores e funções que resultam em um valor. Exemplo: 2 + 3 * 4 (aqui, a expressão resulta em 14).</p>
     <p>Expressões > Aritiméticas: matemáticas (soma, subtração, multiplicação...)</p>
     <p>Quem define se o número é par ou impar é o resto da divisão.</p>
@@ -53,7 +55,7 @@
     <p>Expressões Lógicas > Operadores: simbolos que iremos utilizar ao longo do codigo para operadores matematicas (mais, menos, vezes...), de comparacao (igual, maior, diferente...) e de logica (e - ou).</p>
     <p>Expressões Lógicas > Operadores > Relacionais: maior, maior que, menor, menor que...</p>
     <p>Expressões Lógicas > Operadores > Lógicos: and, or, not.</p>
-    <h2>Estruturas de controle</h2>
+    <h3>Estruturas de controle</h3>
     <p>Estruturas de controle - permitem controlar o fluxo do programa, decidir quais partes do código serão executadas com base em condições.</p>   
     Sao como perguntas que o computador faz para responder em seguida e tomar decisoes. 
     Ex.: Se idade maior ou igual a 18, voce pode dirigir, senao, voce nao pode dirigir.
@@ -62,13 +64,13 @@
     <p>Estrutura de seleção/decisão - Composta: usa o IF/ELSE. </p>
     <p>Estrutura de seleção/decisão - Encadeada: usa o IF/ELSE e dentro dele outr if/else. </p>
     <p>Estrutura de seleção/decisão - Múltipla: usa if - elif - else ou switch/case</p>
-    <h2>Estrutras de repeticao / Laços - FOR/WHILE</h2>
+    <h3>Estrutras de repeticao / Laços - FOR/WHILE</h3>
     <p>Permite q repite o trecho de codigo sob uma condicao (permite fazer os loops). For - while.
     Repetição com teste no início: primeiro pergunta e depois executa o código. Exemplo: while (condição) { // código a ser repetido }.
     Repetição com teste no final: executa primeiro o código e depois pergunta. Exemplo: do { // código a ser repetido } while (condição).
     Repetição com contador ou variável de controle: usa uma variável para contar quantas vezes o código foi execut
     Ex.: for i in range (4)</p>
-    <h2>Vetores, Matrizes e Registros</h2>
+    <h3>Vetores, Matrizes e Registros</h3>
     <p>
         Estrutura de dados: é uma forma de organizar e armazenar dados para que possam ser usados de maneira eficiente.
         Arrays: são coleções de elementos do mesmo tipo, acessados por um índice. Exemplo: lista de números, onde cada número é um elemento do array.
@@ -83,7 +85,7 @@
         Classes: são estruturas de dados que permitem criar objetos com propriedades e métodos. Exemplo: classe Aluno, onde cada aluno tem nome, idade e matrícula, e pode realizar ações como matricular-se em uma disciplina.
         Structs: são estruturas de dados que permitem agrupar diferentes tipos de dados em um único objeto, semelhante aos registros. Exemplo: struct Aluno, onde cada aluno tem nome, idade e matrícula.
     </p>
-    <h2>Funções</h2>
+    <h3>Funções</h3>
     <p>Funções: conhecida também como subrotina.
         É um bloco de código que executa uma tarefa específica e pode ser reutilizado em diferentes partes do programa.
         Exemplo: função que calcula a média de duas notas.
@@ -95,7 +97,13 @@
         no Python, usamos a palavra-chave def para definir uma função. Exemplo: def minha_funcao(parametro1, parametro2): # código da função.
         Funções podem receber parâmetros (valores de entrada) e retornar valores (resultado da execução
     </p>
-    <h2>Práticas - Desafios</h2>
-    
-</body>
+    <h3>Práticas - Desafios</h3>
+    <h2>Git, Terminal e SQL básico</h2>
+    <h3>Git e GitHub: versionamento básico</h3>
+    <h3>Terminal: comandos mais usados (Windows/Linux)</h3>
+    <h3>SQL: SELECT, WHERE, ORDER BY</h3>
+    <h3>SQL: INSERT, UPDATE, DELETE</h3>
+    <h3>Relacionamentos entre tabelas</h3>
+    <h3>Projeto prático: banco de dados de tarefas</h3>
+   </body>
 </html>
